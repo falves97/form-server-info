@@ -1,51 +1,78 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="pt-BR">
+
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Demystifying Email Design</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
 </head>
-<body style="margin: 0; padding: 0;">
-	<table align="center" border="1" cellpadding="0" cellspacing="0" width="600px" style="border-collapse: collapse;">
-		<tr bgcolor="#2d3573" style="height: 200px;">
-			<td>
-				<table  width="100%" border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
-					<tr>
-						<td  width="45%" style="font-family: Arial, sans-serif;">
-							<div style="background-color: #ffffff; height: 200px; width: 200px; border-radius: 50%; position: relative; top: 40px; left: 30px; box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);">
-							</div>
-						</td>
-						<td valign="bottom" style="font-family: Arial, sans-serif;">
-							<h1 style="color: #ffffff; font-size: 18pt; margin: 0; padding: 0;">Ivair Portella</h1>
-							<h2 style="color: #ffffff; font-size: 12pt; font-weight: 200; margin: 0 0 10px 0; padding: 0;">Gerente Sênior</h2>
-							<table width="100%" border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse; margin-bottom: 20px;">
-								<tr>
-									<td>
-										<a href="#" style="color: #ffffff; font-size: 8pt; text-decoration: none;"><img src="" alt=""/>(99) 9 9999-9999</a>
-									</td>
-									<td>
-										<a href="#" style="color: #ffffff; font-size: 8pt; text-decoration: none;"><img src="" alt=""/>(99) 9 9999-9999</a>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<a href="#" style="color: #ffffff; font-size: 8pt; text-decoration: none;"><img src="" alt=""/>(99) 9 9999-9999</a>
-									</td>
-									<td>
-										<a href="#" style="color: #ffffff; font-size: 8pt; text-decoration: none;"><img src="" alt=""/>(99) 9 9999-9999</a>
-									</td>
-								</tr>
-							</table>
-						</td>
-					</tr>
-				</table>
-			</td>
-		</tr>
-		<tr>
-			<td height="100px">
-				linha 2 cel 1
-			</td>
-		</tr>
-	</table>
+
+<body>
+	<style>
+		* {
+			padding: 0;
+			margin: 0;
+		}
+
+		.signature,
+		.img-area,
+		a {
+			color: #ffffff;
+		}
+
+		.signature {
+			background-color: #2d3573;
+			height: 300px;
+			width: 600px;
+		}
+
+		.img-area {
+			box-shadow: 0px 5px 5px 5px rgba(0,0,0,0.2);
+			margin-left: 20px;
+			margin-top: 40px;
+			float: left;
+			background-color: #cccccc;
+			border-radius: 50%;
+			height: 200px;
+			width: 200px;
+		}
+
+		a {
+			text-decoration: none;
+		}
+	</style>
+
+	<div class="signature">
+		<div class="signature-header">
+			<div class="img-area">
+				<img src="" alt="">
+			</div>
+
+			<div class="text-area">
+				<h1>Bruna Maia</h1>
+				<h2>Comercial</h2>
+
+				<ul>
+					<li><a href="#"><img src="img/whatsapp.png" alt="whatsapp">(99) 9 9999-9999</a></li>
+					<li><a href="#"><img src="#" alt="">(99) 9 9999-9999</a></li>
+					<li><a href="#"><img src="#" alt="">forclean_itz</a></li>
+					<li><a href="#"><img src="#" alt="">www.fortclean.net</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="signature-footer">
+			<h3></h3>
+			<ul>
+				<li><img src="#" alt=""></li>
+				<li><img src="#" alt=""></li>
+				<li><img src="#" alt=""></li>
+				<li><img src="#" alt=""></li>
+				<li><img src="#" alt=""></li>
+				<li><img src="#" alt=""></li>
+			</ul>
+		</div>
+	</div>
 </body>
+
 </html>
