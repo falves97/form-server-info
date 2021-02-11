@@ -7,75 +7,179 @@
 
 <body style="margin: 0; padding: 0;">
 
+  <style type="text/css">
+    @font-face {
+      font-family: 'Source Sans Pro', sans-serif;
+      src: url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+    }
+  </style>
+
 <!--Tabela principal: usa toda a largura da tela-->
-<table border="1" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse; height: 300px">
+<table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
 	<tr>
-		<td>
+		<td style="height: 300px;">
 
 			<!--Tabela de conteúdo principal: largura 600px e altura 300px-->
-			<table align="center" border="1" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse; height: 300px">
+			<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse;">
 				<tr>
-					<td>
+					<td style=" height: 300px">
 
-						<!--tabela com header e footer-->
-						<table align="center" border="1" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse;">
-							<tr style="height: 200px">
-								<td>
+            <!--Tabela para dividir hader e footer-->
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse;">
+              <tr>
+                <td width="600px" style="height: 200px;">
 
-									<!--Header: foto, contatos e logo fortclean-->
-									<table align="center" bgcolor="#2d3573" border="1" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse;  height: 200px">
-										<tr style="height: 200px">
-											<td width="200px" style="border-radius: 50%">
-												<img src="https://github.com/falves97/form-server-info/blob/main/img/servidor.png?raw=true" alt="imagem do servidor" style="width: 200px; height: 200px;">
-											</td>
-											<td width="300px" style="vertical-align: bottom;">
-												<table table align="center" border="1" cellpadding="0" cellspacing="0" width="300" style="border-collapse: collapse;">
+                  <!--Tabela do header, dividida em 3 colunas-->
+                  <table align="center" border="0" bgcolor="#2d3573" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse;">
+                    <tr>
+                      <td style="height: 200px; width: 200px; padding: 0 10px;">
+                        <img width="198" height="198" src="https://github.com/falves97/form-server-info/blob/main/img/servidor.png?raw=true" alt="imagem do servidor">
+                      </td>
+                      <td style="height: 200px; width: 300px;">
+                        <table table align="center" border="0" cellpadding="0" cellspacing="0" width="300" style="border-collapse: collapse;">
 													<tr style="height: 110px">
 														<td>
-															<h1 style="color: #ffffff; margin: 0; padding: 0">Ivair Bertolla</h1>
-															<h2 style="color: #ffffff; margin: 0; padding: 0">Supervisor Geral</h2>
+															<h1 style="color: #ffffff; margin: 0; padding: 0; font-family: 'Source Sans Pro', sans-serif;">Ivair Bertolla</h1>
+															<h2 style="color: #ffffff; margin: 0; padding: 0; font-family: 'Source Sans Pro', sans-serif;">Supervisor Geral</h2>
 														</td>
 													</tr>
 													<tr>
-														<td>
-															<table align="center" border="1" cellpadding="0" cellspacing="0" width="300" style="border-collapse: collapse; margin-bottom: 30px">
-																<tr width="300px" style="height: 30px">
+														<td style="padding-bottom: 30px;">
+															<table align="center" valign="bottom" border="0" cellpadding="0" cellspacing="0" width="300" style="border-collapse: collapse;vertical-align: bottom;">
+																<tr>
 																	<td width="150px">
-																		<a href="#" style="text-decoration: none; color: #ffffff"><img src="https://github.com/falves97/form-server-info/blob/main/img/icons/whatsapp.png?raw=true" alt="whatsapp" style="width: 30px; height: 30px; vertical-align: middle">99 9 9999-9999</a>
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="150" style="border-collapse: collapse;">
+                                      <tr>
+                                        <td width="30" heigth="30">
+                                          <img src="https://github.com/falves97/form-server-info/blob/main/img/icons/whatsapp.png?raw=true" alt="whatsapp" width="30" height="30" style="display: block; margin: 0; padding: 0;">
+                                        </td>
+                                        <td>
+                                          <p style="color: #ffffff; font-family: 'Source Sans Pro', sans-serif;">99 9 9999-9999</p>
+                                        </td>
+                                      </tr>
+                                    </table>
 																	</td>
-																	<td width="150px">
-																		<a href="#" style="text-decoration: none; color: #ffffff"><img src="https://github.com/falves97/form-server-info/blob/main/img/icons/instagram.png?raw=true" alt="instagram" style="width: 30px; height: 30px; vertical-align: middle">fortclean_itz</a>
+																	<td>
+																		<table align="center" border="0" cellpadding="0" cellspacing="0" width="150" style="border-collapse: collapse;">
+                                      <tr>
+                                        <td width="30" heigth="30">
+                                          <img src="https://github.com/falves97/form-server-info/blob/main/img/icons/instagram.png?raw=true" alt="instagram" width="30" height="30" style="display: block; margin: 0; padding: 0;">
+                                        </td>
+                                        <td>
+                                          <p style="color: #ffffff; font-family: 'Source Sans Pro', sans-serif;">fortclean_itz</p>
+                                        </td>
+                                      </tr>
+                                    </table>
 																	</td>
 																</tr>
-																<tr style="height: 30px">
+																<tr>
 																	<td width="150px">
-																		<a href="#" style="text-decoration: none; color: #ffffff"><img src="https://github.com/falves97/form-server-info/blob/main/img/icons/telefone.png?raw=true" alt="telefone" style="width: 30px; height: 30px; vertical-align: middle">99 9 9999-9999</a>
+																		<table align="center" border="0" cellpadding="0" cellspacing="0" width="150" style="border-collapse: collapse;">
+                                      <tr>
+                                        <td width="30" heigth="30">
+                                          <img src="https://github.com/falves97/form-server-info/blob/main/img/icons/telefone.png?raw=true" alt="telefone" width="30" height="30" style="display: block; margin: 0; padding: 0;">
+                                        </td>
+                                        <td>
+                                          <p style="color: #ffffff; font-family: 'Source Sans Pro', sans-serif;">9 9999-9999</p>
+                                        </td>
+                                      </tr>
+                                    </table>
 																	</td>
 																	<td width="150px">
-																		<a href="#" style="text-decoration: none; color: #ffffff"><img src="https://github.com/falves97/form-server-info/blob/main/img/icons/globe.png?raw=true" alt="telefone" style="width: 30px; height: 30px; vertical-align: middle">www.fortclean.net</a>
+                                    
+																		<table align="center" border="0" cellpadding="0" cellspacing="0" width="150" style="border-collapse: collapse;">
+                                      <tr>
+                                        <td width="30" heigth="30">
+                                            <img src="https://github.com/falves97/form-server-info/blob/main/img/icons/globe.png?raw=true" alt="globe" width="30" height="30" style="display: block; margin: 0; padding: 0;">
+                                        </td>
+                                        <td style="text-decoration: none;">
+                                          <p style="color: #ffffff; font-family: 'Source Sans Pro', sans-serif;">www.fortclean.net</p>
+                                        </td>
+                                      </tr>
+                                    </table>
+
 																	</td>
 																</tr>
 															</table>
 														</td>
 													</tr>
 												</table>
-											</td>
-											<td width="100px">
+                      </td>
+                      <td style="height: 200px; width: 100px;">
+                        <table valign="top" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+                          <tr>
+                            <td valign="top">
+                              <img src="https://github.com/falves97/form-server-info/blob/main/img/logo.png?raw=true" alt="logo" width="80" height="52" style="display: block; margin: 0; padding: 0;">
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="height: 100;">
 
-											</td>
-										</tr>
-									</table>
-								</td>
-							</tr>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
 
-							<tr style="height: 100px">
-								<td>
+              <tr>
+                <td width="600px" style="height: 100px;">
+                  <table align="right" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; padding-right: 10px;">
+                    <tr>
+                      <td style="height: 40px;">
+                        <p style="text-align: center; font-family: 'Source Sans Pro', sans-serif; color: #2d3573;"><b>CLIQUE AQUI E NOS CONHEÇA</b></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+                          <tr>
+                            <td width="50" style=" height: 50px; padding: 0 10px;">
+                              <a href="https://www.facebook.com/FortCleanDistribuidora">
+                                <img src="https://github.com/falves97/form-server-info/blob/main/img/icons/facebook.png?raw=true" alt="instagram" width="50" height="50" style="display: block; margin: 0; padding: 0;">
+                              </a>
+                            </td>
 
-									<!--footer-->
+                            <td width="50" style=" height: 50px; padding: 0 10px;">
+                              <a href="https://instagram.com/fortclean_itz">
+                                <img src="https://github.com/falves97/form-server-info/blob/main/img/icons/instagram.png?raw=true" alt="instagram" width="50" height="50" style="display: block; margin: 0; padding: 0;">
+                              </a>
+                            </td>
 
-								</td>
-							</tr>
-						</table>
+                            <td width="50" style=" height: 50px; padding: 0 10px;">
+                              <a href="https://api.whatsapp.com/send?">
+                                <img src="https://github.com/falves97/form-server-info/blob/main/img/icons/whatsapp.png?raw=true" alt="instagram" width="50" height="50" style="display: block; margin: 0; padding: 0;">
+                              </a>
+                            </td>
+
+                            <td width="50" style=" height: 50px; padding: 0 10px;">
+                              <a href="http://www.fortclean.net/">
+                                <img src="https://github.com/falves97/form-server-info/blob/main/img/icons/globe.png?raw=true" alt="instagram" width="50" height="50" style="display: block; margin: 0; padding: 0;">
+                              </a>
+                            </td>
+
+                            <td width="50" style=" height: 50px; padding: 0 10px;">
+                              <a href="https://www.youtube.com/channel/UCCIRxCSSlO4Sfu3LETF5Zcg">
+                                <img src="https://github.com/falves97/form-server-info/blob/main/img/icons/youtube.png?raw=true" alt="instagram" width="50" height="50" style="display: block; margin: 0; padding: 0;">
+                              </a>
+                            </td>
+
+                            <td width="50" style=" height: 50px; padding: 0 10px;">
+                              <a href="https://www.linkedin.com/company/fortclean/">
+                                <img src="https://github.com/falves97/form-server-info/blob/main/img/icons/linkedin.png?raw=true" alt="instagram" width="50" height="50" style="display: block; margin: 0; padding: 0;">
+                              </a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  
+                </td>
+              </tr>
+            </table>
 					</td>
 				</tr>
 			</table>
